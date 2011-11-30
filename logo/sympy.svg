@@ -57,24 +57,27 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient51093"
-       x1="7"
-       y1="236.36217"
-       gradientTransform="matrix(0.6589132,0,0,1,38.255195,34.516811)"
-       x2="105"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient51087"
-       y2="236.36217" />
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient56927"
-       x1="7"
-       y1="236.36217"
-       gradientTransform="matrix(0.8548759,0,0,1,35.559461,38.759452)"
-       x2="105"
+       x1="123.53376"
+       y1="182.21277"
+       x2="43.33"
        gradientUnits="userSpaceOnUse"
        xlink:href="#linearGradient51087"
-       y2="236.36217" />
+       y2="182.21277" />
+
+     <mask id="Mask" maskUnits="userSpaceOnUse"
+          x="0" y="0" width="800.202515" height="800.81773">
+
+      <rect x="43.331245" y="182.21277" width="81.202515" height="185.81773" fill="url(#linearGradient56927)"  />
+<!--
+       x="43.331245"
+       y="182.21277"
+       width="80.202515"    123.53376
+       height="185.81773"   368.0305
+
+-->
+      <rect x="123.53376" y="0" width="800" height="800" fill="white"  />
+    </mask>
   </defs>
   <metadata
      id="metadata7">
@@ -87,6 +90,7 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g mask="url(#Mask)">
   <g
      inkscape:groupmode="layer"
      id="layer1"
@@ -534,6 +538,7 @@
        sodipodi:ry="21.213203"
        sodipodi:rx="20.506096" />
   </g>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
@@ -545,23 +550,5 @@
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.97098225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="cccccccscc" />
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer10"
-     style="opacity:1">
-    <rect
-       id="rect51095"
-       x="8.3553391"
-       y="192.62416"
-       width="41"
-       height="150"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#293720;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect50116"
-       x="43.331245"
-       y="182.21277"
-       width="80.202515"
-       height="185.81773"
-       style="opacity:1;fill:url(#linearGradient56927);fill-opacity:1;stroke:#293720;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
 </svg>
+
